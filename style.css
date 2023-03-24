@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2? family= Noto+Serif:wght@400;700 & display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+body {
+    background-color: rgb(239, 239, 253);
+}
+
+ul {
+    list-style: none;
+}
+
+main {
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-gap: 2rem;
+    filter: drop-shadow(0 0 0.4rem black);
+    }
+    .personal,
+    .skills,
+    .languages{
+        margin: 1rem;
+        padding: 0rem;
+        line-height: 2;
+    }
+
+    .left {
+        background-color: rgba(118, 157, 230, 0.582);
+    }
+
+.left-image {
+    position:relative;
+        
+ }
+.left-image img{
+    width: 63%;
+    margin: 2rem;
+}
+
+ .left-image h2 {
+    position: absolute;
+    bottom: 0;
+    left: 1rem;
+  }
+
+  .right {
+    background-color: rgb(221, 221, 247);
+    padding: 1rem;
+  }
+
+  .experience, .education, .acknowledgments {
+    line-height: 1.5rem;
+  }
+
+  .experience ul {
+    margin: 2rem 0;
+  }
+
+  .education ul {
+    margin: 2rem 0;
+  }
+
+  .acknowledgments ul {
+    margin: 2rem 0;
+  }
+
+  .footer, .ags {
+    background-color: rgba(100, 148, 237, 0.685);
+    padding: 2rem 0;
+    text-align: center;
+    line-height: 1.5;
+  }
+
+  .centre-image {
+    margin: 5rem;
+    }
+
+  button {
+    font-size: 25px;
+    padding: 10px 20px;
+    margin: 80px 150px 150px 140px;
+    background-color: rgba(100, 148, 237, 0.877);
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    cursor: pointer
+    transition: .5s
+  }
+
+  button:hover {
+    
+    background-color: gray;
+    box-shadow: 0 0 30px black;
+   
+  }
+
+  @media print {
+      body*{
+        visibility: hidden
+      }
+      print area*{
+        visibility: visible
+      }
+
